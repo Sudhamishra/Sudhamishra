@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+ text-align:center;
+ background:#fff0f5;
+ font-family:Arial;
+}
+canvas{
+ background:#fce4ec;
+ border-radius:15px;
+}
+button{
+ padding:10px 25px;
+ background:#e98bb2;
+ color:white;
+ border:0;
+ border-radius:20px;
+}
+</style>
+</head>
+<body>
 
+<h2>⭐ Catch the Stars ⭐</h2>
+<h3>Score: <span id="score">0</span></h3>
+
+<canvas id="game" width="320" height="400"></canvas>
+<br>
+<button onclick="start()">Restart</button>
+
+<script>
+let c=document.getElementById("game");
+let x=c.getContext("2d");
+let basket=130, star=20, score=0;
+
+function draw(){
+ x.clearRect(0,0,320,400);
+
+ x.font="25px Arial";
+ x.fillText("⭐",star,starY);
+ x.fillText("🧺",basket,360);
+
+ starY+=3;
+
+ if(starY>340){
+   if(star>basket-20 && star<basket+50){
+     score++;
+     document.getElementById("score").innerText=score;
+   }
+   star=Math.random()*290;
+   starY=0;
+ }
+ requestAnimationFrame(draw);
+}
+
+let starY=0;
+
+c.addEventListener("pointermove",e=>{
+ let r=c.getBoundingClientRect();
+ basket=(e.clientX-r.left)*320/r.width-20;
+ basket=Math.max(0,Math.min(270,basket));
+});
+
+function start(){
+ score=0;
+ starY=0;
+ document.getElementById("score").innerText=0;
+}
+draw();
+</script>
+
+</body>
+</html>
