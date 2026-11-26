@@ -39,7 +39,7 @@ I enjoy exploring new technologies, analyzing data, creating designs and develop
 ---
 ## 🎮 My Mini Game
 
-[⭐ Play Catch the Stars](https://sudhamishra.github.io/game.html)
+[⭐ Play Catch the Stars](./game.html)
 
 # 💼 Professional Experience
 
