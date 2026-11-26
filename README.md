@@ -99,7 +99,7 @@ To analyze hotel booking data, understand cancellation patterns and identify boo
 
 ### Dashboard Preview
 
-![Hotel Booking Dashboard](./assets/hotel-booking-dashboard.png)
+![Hotel Booking Dashboard](./hotel-booking-dashboard.png)
 
 ---
 
