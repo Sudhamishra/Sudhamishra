@@ -37,7 +37,6 @@ I enjoy exploring new technologies, analyzing data, creating designs and develop
 - 🤝 Quick learner with communication and problem-solving skills.
 
 ---
-## 🎮 My Mini Game
 
 ## 🎮 My Mini Game
 
