@@ -175,17 +175,31 @@ Creative designs made using different graphic designing tools.
 
 ### My Design Gallery
 
-Add your own design images below.
+<div align="center">
 
-<!-- Upload your designs inside the assets/designs folder -->
+<img src="./assets/1795694455791.jpg" width="250">
+<img src="./assets/1795694455832.jpg" width="250">
+<img src="./assets/1795694455866.jpg" width="250">
+<img src="./assets/1795694455905.jpg" width="250">
 
-<!--
-<img src="./assets/designs/design-1.png" width="45%"/>
-<img src="./assets/designs/design-2.png" width="45%"/>
-<img src="./assets/designs/design-3.png" width="45%"/>
-<img src="./assets/designs/design-4.png" width="45%"/>
--->
+<img src="./assets/AceBuild-Banner.png" width="250">
+<img src="./assets/COVERBATTERY2.png" width="250">
+<img src="./assets/GOOD%20DAY2.O.png" width="250">
+<img src="./assets/OMROX.png" width="250">
 
+<img src="./assets/army%20invitation.png" width="250">
+<img src="./assets/banner%20file.png" width="250">
+<img src="./assets/battery%20solutions.png" width="250">
+<img src="./assets/divine%20pamplate.png" width="250">
+<img src="./assets/divine.png" width="250">
+<img src="./assets/efficient.png" width="250">
+<img src="./assets/good%20day%20banner.png" width="250">
+<img src="./assets/homoeopathic%2033logo.png" width="250">
+<img src="./assets/powerprogress.png" width="250">
+<img src="./assets/sgt.png" width="250">
+<img src="./assets/surgicarex2x.png" width="250">
+
+</div>
 ---
 
 # 🛠️ Technical Skills
