@@ -37,6 +37,9 @@ I enjoy exploring new technologies, analyzing data, creating designs and develop
 - 🤝 Quick learner with communication and problem-solving skills.
 
 ---
+## 🎮 My Mini Game
+
+[⭐ Play Catch the Stars](https://sudhamishra.github.io/game.html)
 
 # 💼 Professional Experience
 
